@@ -1,17 +1,18 @@
-import React from 'react';
-import Header from './components/Header';
+import React, { Fragment } from 'react';
+import NavBar from './components/Layout/NavBar';
 import './App.css';
-import Footer from './components/Footer';
+import Footer from './components/Layout/Footer';
+import Router from './components/Routes/Router';
 
 function App() {
   return (
-    <div className="App">
-      <Header />
+    <Fragment>
+      <NavBar/>
   
+      <Router/>
   
       <Footer />
-
-    </div>
+    </Fragment>
   );
 }
 
