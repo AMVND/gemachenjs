@@ -8,7 +8,7 @@ function App() {
   return (
     <Fragment>
       <NavBar/>
-  
+      <br/>
       <Router/>
   
       <Footer />

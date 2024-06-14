@@ -1,0 +1,17 @@
+.under {
+    position: fixed;
+    z-index: -1;
+  }
+  
+  .over {
+    position: absolute;
+    z-index: 1;
+  }
+
+  p.head:hover{
+    color: rgb(74, 151, 57);
+  }
+  p.head{
+    font-weight: bold;
+    font-size: 11pt;
+  }

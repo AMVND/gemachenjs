@@ -1,0 +1,18 @@
+.titlep {
+    font-weight: bold;
+    font-size: 18pt;
+    margin-bottom: 1rem;
+    position: relative;
+    line-height: 40px ;
+  }
+
+  .titlep::after {
+    content: '';
+    width: 50px;
+    height: 3px;
+    background-color: #28a745;
+    position: absolute;
+    bottom: 0;
+    left: 2vw;
+    justify-items: center;
+  }

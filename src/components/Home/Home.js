@@ -1,12 +1,14 @@
 import React from 'react'
-import Banner from '../Layout/Banner';
 import Introduce from '../GioiThieu/Introduce';
+import Product from '../Product/Product';
 
 function Home() {
   return (
     <div>
-       <Banner/>
        <Introduce/>
+       <hr/>
+       <Product/>
+       <hr/>
     </div>
   )
 }

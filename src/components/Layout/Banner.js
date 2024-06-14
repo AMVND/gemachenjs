@@ -13,17 +13,9 @@ function Banner() {
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
         <img src= {banner1} className="d-block w-100" alt='first banner'/>
-        <Carousel.Caption>
-          {/* <h3></h3>
-          <p></p> */}
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img src= {banner1} className="d-block w-100" alt='second banner'/>
-        <Carousel.Caption>
-          {/* <h3></h3>
-          <p></p> */}
-        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );
